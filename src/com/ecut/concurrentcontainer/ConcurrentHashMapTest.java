@@ -8,5 +8,6 @@ public class ConcurrentHashMapTest {
 
     public static void main(String[] args) {
         Map map = Collections.synchronizedMap(new HashMap<>());
+
     }
 }
