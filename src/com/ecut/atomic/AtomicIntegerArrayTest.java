@@ -8,6 +8,7 @@ public class AtomicIntegerArrayTest {
     static AtomicIntegerArray array = new AtomicIntegerArray(10);
 
     public static class AtomicIntegerThread implements Runnable {
+
         @Override
         public void run() {
             for (int k = 0; k < 10000; k++) {
